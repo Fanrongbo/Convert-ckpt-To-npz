@@ -7,5 +7,5 @@ In this example, I used the original weights of Vgg16 and fineturning weights tr
 1. load the .ckpt file trained by yourself;
 2. load the .npz file downloaded by network;
 3. read the keys name of original .npz file;
-4. use np.savez to save the weights in a new .npz file;
+4. use np.savez to save the weights and keys name in a new .npz file;
 5.Vertify and compare whether the name and shape of the dict from the new generated ,pyz file is correct.
